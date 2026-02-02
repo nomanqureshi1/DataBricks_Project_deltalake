@@ -1,0 +1,32 @@
+[
+  {
+    "source": "crm",
+    "path": "abfss://rawdata@fordatabricks111.dfs.core.windows.net/source_crm/cust_info.csv",
+    "table": "cust_info"
+  },
+  {
+    "source": "crm",
+    "path": "abfss://rawdata@fordatabricks111.dfs.core.windows.net/source_crm/prd_info.csv",
+    "table": "prd_info"
+  },
+  {
+    "source": "crm",
+    "path": "abfss://rawdata@fordatabricks111.dfs.core.windows.net/source_crm/sales_detail.csv",
+    "table": "sales_details"
+  },
+  {
+    "source": "erp",
+    "path": "abfss://rawdata@fordatabricks111.dfs.core.windows.net/source_erp/CUST_AZ12.csv",
+    "table": "CUST_AZ12"
+  },
+  {
+    "source": "erp",
+    "path": "abfss://rawdata@fordatabricks111.dfs.core.windows.net/source_erp/LOC_A101.csv",
+    "table": "LOC_A101"
+  },
+  {
+    "source": "erp",
+    "path": "abfss://rawdata@fordatabricks111.dfs.core.windows.net/source_erp/PX_CAT_G1V2.csv",
+    "table": "PX_CAT_G1V2"
+  }
+]
